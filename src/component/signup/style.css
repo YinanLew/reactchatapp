@@ -1,0 +1,26 @@
+.signup {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.signup__container {
+    padding: 3rem;
+    text-align: center;
+    background-color: #bdbdbd;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 3px;
+}
+
+.signup__container > img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 2rem;
+}
+
+.signup__container > button {
+    margin-top: 1rem;
+    text-decoration: inherit !important;
+    color: #f1f1f1;
+}

@@ -1,0 +1,22 @@
+html {
+    font-size: 100%;
+}
+
+* {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.app {
+    background-color: #f1f1f1;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.app__body {
+    display: flex;
+    background-color: #fff;
+    height: 90vh;
+    width: 90vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
